@@ -2,9 +2,9 @@ import { MapPin, Phone, Mail, ArrowRight, Facebook, Twitter, Instagram, Linkedin
 
 export default function Footer() {
   return (
-    <footer className="bg-[#050505] text-white pt-20 pb-10 border-t border-white/10">
+    <footer className="bg-[#050505] text-white pt-12 md:pt-20 pb-12 md:pb-10 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8 mb-12 md:mb-16">
           {/* Brand Column */}
           <div className="lg:pr-8">
             <div className="mb-6 flex items-start">

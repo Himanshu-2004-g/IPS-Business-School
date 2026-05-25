@@ -3,17 +3,17 @@ import { CheckCircle, Home, UserCheck, GraduationCap, MapPin } from 'lucide-reac
 
 export default function Eligibility() {
   return (
-    <section className="py-24 bg-white relative overflow-hidden">
+    <section className="py-12 md:py-24 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12 md:mb-16">
           <h3 className="text-3xl md:text-4xl font-semibold text-gray-900 tracking-tight">Who Can Apply</h3>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-16">
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-16">
           
           {/* Eligibility Criteria */}
-          <div className="flex-1 space-y-10">
-            <h4 className="text-3xl font-bold text-brand-dark mb-8 border-b pb-4">Eligibility Criteria</h4>
+          <div className="flex-1 space-y-6 md:space-y-10">
+            <h4 className="text-3xl font-bold text-brand-dark mb-6 md:mb-8 border-b pb-4">Eligibility Criteria</h4>
             
             <div className="flex gap-4">
               <div className="mt-1 bg-brand-orange/10 p-2 rounded-lg text-brand-orange h-fit">
@@ -94,7 +94,7 @@ export default function Eligibility() {
                   <h4 className="text-3xl font-bold text-white tracking-tight">Hostel Facility <br/><span className="text-brand-orange">Available</span></h4>
                 </div>
                 
-                <div className="space-y-5 relative">
+                <div className="space-y-6 md:space-y-5 relative">
                   {/* Decorative line */}
                   <div className="absolute left-[9px] top-4 bottom-4 w-[2px] bg-white/10" />
                   

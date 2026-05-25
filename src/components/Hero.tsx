@@ -3,7 +3,7 @@ import { ArrowRight, BookOpen, GraduationCap, Globe } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative pt-[100px] sm:pt-[130px] md:pt-[160px] pb-20 md:pb-32 overflow-hidden text-gray-900 min-h-[90vh]">
+    <section className="relative pt-[128px] md:pt-[160px] pb-12 md:pb-32 overflow-hidden text-gray-900 min-h-[90vh]">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
@@ -21,13 +21,13 @@ export default function Hero() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10 w-full">
-        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        <div className="grid lg:grid-cols-12 gap-6 lg:gap-12 items-center">
           <div className="lg:col-span-7">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
-              className="flex flex-col items-start gap-6 mb-8"
+              className="flex flex-col items-start gap-6 mb-6 md:mb-8"
             >
               <div className="flex flex-wrap items-center gap-4">
                 <img src="https://i.postimg.cc/15RggXxx/Whats-App-Image-2026-05-22-at-12-26-19.jpg" alt="AICTE Approved" className="h-20 md:h-24 object-contain bg-white rounded-xl p-3" />
@@ -52,7 +52,7 @@ export default function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
-              className="text-base sm:text-[18px] text-gray-200 font-medium mb-10 leading-relaxed max-w-2xl"
+              className="text-base sm:text-[18px] text-gray-200 font-medium mb-6 md:mb-10 leading-relaxed max-w-2xl"
             >
               Rajasthan's top-ranked IPS MBA college with 18+ years of excellence. Recognized as the best IPS University MBA destination — AICTE approved, RTU affiliated, where industry meets academia.
             </motion.p>
@@ -90,7 +90,7 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.4 }}
-              className="flex lg:hidden flex-wrap items-center gap-x-8 gap-y-4 text-sm text-gray-300 font-medium mt-8 pt-8 border-t border-white/20"
+              className="flex lg:hidden flex-wrap items-center gap-x-6 gap-y-4 text-sm text-gray-300 font-medium mt-6 pt-6 border-t border-white/20"
             >
               <div className="flex items-center gap-2">
                 <Globe className="w-4 h-4 text-brand-orange" />

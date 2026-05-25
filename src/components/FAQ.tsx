@@ -29,13 +29,13 @@ export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="py-24 bg-gray-50">
+    <section className="py-12 md:py-24 bg-gray-50">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12 md:mb-16">
           <h3 className="text-3xl md:text-4xl font-semibold text-brand-dark mb-4 tracking-tight">Frequently Asked Questions</h3>
         </div>
 
-        <div className="space-y-4">
+        <div className="space-y-6 md:space-y-4">
           {FAQS.map((faq, index) => {
             const isOpen = openIndex === index;
             return (

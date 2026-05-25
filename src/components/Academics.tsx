@@ -68,9 +68,9 @@ export default function Academics() {
   const [activeCourse, setActiveCourse] = useState(0);
 
   return (
-    <section className="pt-20 pb-32 bg-white" id="academics">
+    <section className="pt-12 md:pt-20 pb-12 md:pb-32 bg-white" id="academics">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <h2 className="text-brand-orange font-semibold tracking-wide uppercase mb-3">Academics</h2>
           <h3 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-6 tracking-tight">MBA Program at IPS</h3>
           <p className="text-lg text-gray-600">
@@ -79,7 +79,7 @@ export default function Academics() {
         </div>
 
         {/* Custom Tab Selector */}
-        <div className="flex md:flex-wrap overflow-x-auto scrollbar-none justify-start md:justify-center gap-3 md:gap-4 mb-16 px-6 md:px-0 -mx-6 md:mx-0 snap-x snap-mandatory">
+        <div className="flex md:flex-wrap overflow-x-auto scrollbar-none justify-start md:justify-center gap-3 md:gap-4 mb-12 md:mb-16 px-6 md:px-0 -mx-6 md:mx-0 snap-x snap-mandatory">
           {COURSES.map((course, idx) => {
             const Icon = course.icon;
             return (
@@ -112,14 +112,14 @@ export default function Academics() {
             >
               {/* Content Side */}
               <div className="p-6 sm:p-10 lg:p-16 flex flex-col justify-center h-full order-2 lg:order-2 bg-white">
-                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-orange/10 text-brand-orange text-xs md:text-sm font-bold tracking-wide uppercase mb-8 w-fit shrink-0">
+                <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-orange/10 text-brand-orange text-xs md:text-sm font-bold tracking-wide uppercase mb-6 md:mb-8 w-fit shrink-0">
                    {COURSES[activeCourse].subtitle}
                 </div>
-                <h4 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-8 tracking-tight shrink-0">
+                <h4 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 md:mb-8 tracking-tight shrink-0">
                   {COURSES[activeCourse].title}
                 </h4>
                 
-                <ul className="space-y-5 mb-10">
+                <ul className="space-y-5 mb-6 md:mb-10">
                   {COURSES[activeCourse].features.map((item, i) => (
                     <motion.li 
                       initial={{ opacity: 0, x: -10 }}
@@ -159,7 +159,7 @@ export default function Academics() {
           </AnimatePresence>
         </div>
 
-        <div className="mt-16 md:mt-24 text-center">
+        <div className="mt-12 md:mt-24 text-center">
           <h5 className="text-xs md:text-sm font-bold text-gray-400 uppercase tracking-widest mb-6 md:mb-8">All Available Specializations</h5>
           <div className="flex flex-wrap justify-center gap-2 md:gap-4 max-w-4xl mx-auto">
             {SPECIALIZATIONS.map((spec, i) => {

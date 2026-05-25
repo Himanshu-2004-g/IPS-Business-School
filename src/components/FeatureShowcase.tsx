@@ -31,9 +31,9 @@ const FEATURES = [
 
 export default function FeatureShowcase() {
   return (
-    <section className="py-24 bg-white relative">
+    <section className="py-12 md:py-24 bg-white relative">
       <div className="max-w-[90rem] mx-auto px-4 sm:px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12 md:mb-16">
           <h3 className="text-3xl md:text-4xl font-semibold text-gray-900 tracking-tight">Scholarship Programs</h3>
         </div>
 
@@ -77,7 +77,7 @@ export default function FeatureShowcase() {
             );
           })}
         </div>
-        <div className="mt-16 text-center">
+        <div className="mt-12 md:mt-16 text-center">
           <button className="inline-flex items-center gap-2 bg-brand-orange text-white px-8 py-4 rounded-full font-bold hover:bg-brand-orange-hover transition-colors shadow-lg shadow-brand-orange/20 hover:shadow-brand-orange/40">
             Download Fee Structure
             <ArrowRight className="w-5 h-5" />

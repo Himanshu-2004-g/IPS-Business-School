@@ -2,7 +2,7 @@ import { ArrowRight, MessageCircle, MapPin } from 'lucide-react';
 
 export default function CTASection() {
   return (
-    <section className="py-24 bg-white relative">
+    <section className="py-12 md:py-24 bg-white relative">
       <div className="max-w-7xl mx-auto px-6">
         <div 
           className="bg-[#0a0a0a] rounded-[2.5rem] relative overflow-hidden shadow-2xl border border-gray-800/50 bg-cover bg-center"
@@ -25,11 +25,11 @@ export default function CTASection() {
               Ready to Build Your <br className="hidden md:block"/>Business Career?
             </h2>
             
-            <p className="text-gray-200 text-lg md:text-xl max-w-xl mb-12 leading-relaxed shadow-black/50 drop-shadow-md">
+            <p className="text-gray-200 text-lg md:text-xl max-w-xl mb-6 md:mb-12 leading-relaxed shadow-black/50 drop-shadow-md">
               Join 500+ IPS alumni placed at top companies across India. Apply today before seats fill up.
             </p>
             
-            <div className="flex flex-col sm:flex-row items-center gap-4 mb-10">
+            <div className="flex flex-col sm:flex-row items-center gap-4 mb-6 md:mb-10">
               <button className="w-full sm:w-auto bg-brand-orange hover:brightness-110 text-white px-8 py-4 rounded-full font-bold transition-all flex items-center justify-center gap-2 group text-base shadow-xl">
                 Apply for MBA 2026 
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />

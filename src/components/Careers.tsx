@@ -68,10 +68,10 @@ export default function CareerOutcomes() {
   return (
     <div className="relative">
       {/* Dark background section matching the structural layout block */}
-      <section className="bg-[#111827] pt-24 pb-36 relative overflow-hidden">
+      <section className="bg-[#111827] pt-12 md:pt-24 pb-12 md:pb-36 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-6 relative z-10">
           
-          <div className="grid lg:grid-cols-2 gap-12 mb-20 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 mb-12 md:mb-20 items-center">
             <div className="max-w-xl">
               <h2 className="text-white text-3xl md:text-4xl font-semibold mb-3 tracking-tight">
                 Career Outcomes
@@ -118,7 +118,7 @@ export default function CareerOutcomes() {
       </section>
 
       {/* The Overlapping White Slip */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-20 -mt-[4.5rem] mb-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-20 -mt-[4.5rem] mb-12 md:mb-24">
         <div className="bg-white rounded-2xl shadow-2xl shadow-gray-900/10 py-8 md:py-10 px-4 sm:px-8 border-t-[6px] border-t-white flex flex-col justify-center overflow-hidden min-h-[140px]">
           
           <div 
